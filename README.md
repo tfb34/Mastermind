@@ -1,5 +1,5 @@
 # command-line-mastermind
-Mastermind is a code-breaking game. The codebreaker must try to guess the pattern, in both order and color, within twelve turns. In this Ruby program, each guess is made by typing four colors in a row on the command prompt or terminal. Feedback is provided upon each turn through the use of white and black pegs.  
+Mastermind is a code-breaking game. The codebreaker must try to guess the pattern, in both order and color, within twelve turns. In this Ruby program, each guess is made by typing four colors in a row on the command prompt or terminal. Feedback is provided upon each turn through the use of white and black pegs. For more information, https://en.wikipedia.org/wiki/Battleship_(game).
 
 ## Getting Started
 These instructions will help you get a copy of the game up and running on your computer. 
@@ -30,6 +30,7 @@ The player has at most 12 chances to guess a secret combination of 4 colors gene
 HOW TO PLAY
   To create your guess you may select any of the following colors:
          blue,green,red, orange,yellow, purple
+
   Duplicates are allowed. 
   Each time you submit a guess, the machine will tell you how close that guess 
   is by returning a black and white score.
