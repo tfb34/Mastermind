@@ -35,7 +35,7 @@ end
 
 
 def howToPlay
-  puts "HOW TO PLAY___To create your guess enter 4 colors from the above list.
+  puts "HOW TO PLAY___This is a guessing game. Enter 4 colors then press Enter.
   Each time you submit a guess, the machine will tell you how close that guess 
   is by returning a black and white score.
   
@@ -46,6 +46,7 @@ def howToPlay
 
   Use these scores to guide your next guess. If your guess returns a black
   score of 4 within 12 tries, you win!"
+  puts "///////////////////BEGIN GAME///////////////////"
 end
 
 def setup
@@ -63,8 +64,7 @@ def setup
   puts "*************************************"
   puts "blue green purple orange red yellow"
   puts "*************************************"
-  if i==2
-  	howToPlay
-  end
+  
+  howToPlay if i==2
 end
 mastermind()
